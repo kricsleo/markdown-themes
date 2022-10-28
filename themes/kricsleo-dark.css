@@ -363,6 +363,15 @@
   margin-bottom: 0 !important
 }
 
+.markdown a {
+  color: #6699cc;
+  outline: 0;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  box-shadow: 0 1px 0 0 currentColor;
+}
 .markdown a:not([href]) {
   color: inherit;
   text-decoration: none
