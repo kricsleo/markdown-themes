@@ -277,10 +277,10 @@
 .markdown blockquote {
   margin: 0;
   padding: 16px;
-  border-left: 0.5em solid var(--border);
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
-  border-radius: var(--radius)
+  border-left: 0.5em solid #435266;
+  background-color: #2f3947;
+  color: hsla(0,0%,100%,.6);
+  border-radius: 8px
 }
 
 .markdown ul,
@@ -308,8 +308,8 @@
 
 .markdown pre {
   padding: 16px;
-  background-color: var(--bg-secondary);
-  border-radius: var(--radius)
+  background-color: #2f3947;
+  border-radius: 8px
 }
 
 .markdown :-ms-input-placeholder {
@@ -625,7 +625,7 @@
 
 .markdown code,
 .markdown tt {
-  background-color: var(--bg-tertiary);
+  background-color: rgba(62, 75, 94, 0.6);
   display: inline-block;
   padding: 0em 0.25em;
   margin: 0.1em 0.25em;
