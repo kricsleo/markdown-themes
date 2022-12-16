@@ -1,23 +1,23 @@
 .prose {
-  --k-prose-headings: gray;
-  --k-prose-links: gray;
-  --k-prose-borders: gray;
+  --k-prose-headings: #222222;
+  --k-prose-links: #60a5fa;
+  --k-prose-borders: #dde1e3;
   --k-prose-captions: gray;
-  --k-prose-code: gray;
-  --k-prose-font-mono: gray;
+  --k-prose-code: #9ca3af;
+  --k-prose-font-mono: monospace;
   --k-prose-lists: gray;
-  --k-prose-hr: gray;
-  --k-prose-bg-soft: gray;
+  --k-prose-hr: #dde1e3;
+  --k-prose-bg-soft: #dee2e6;
 }
 
 html.dark .prose {
-  --k-prose-headings: white;
-  --k-prose-links: white;
-  --k-prose-borders: white;
+  --k-prose-headings: #dde1e3;
+  --k-prose-links: #60a5fa;
+  --k-prose-borders: #d1d5db;
   --k-prose-captions: white;
-  --k-prose-code: white;
-  --k-prose-font-mono: white;
+  --k-prose-code: #9ca3af;
+  --k-prose-font-mono: monospace;
   --k-prose-lists: white;
-  --k-prose-hr: white;
-  --k-prose-bg-soft: white;
+  --k-prose-hr: #d1d5db;
+  --k-prose-bg-soft: #6b7280;
 }
