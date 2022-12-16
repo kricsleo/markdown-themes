@@ -1,0 +1,25 @@
+{
+  "name": "markdown-themes",
+  "version": "1.0.0",
+  "description": "Pure css themes for markdown.",
+  "scripts": {
+    "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
+    "clean": "del dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del-cli": "^5.0.0",
+    "sass": "^1.56.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kricsleo/markdown-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kricsleo/markdown-themes/issues"
+  },
+  "homepage": "https://github.com/kricsleo/markdown-themes#readme"
+}
