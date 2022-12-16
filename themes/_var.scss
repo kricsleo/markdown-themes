@@ -1,3 +1,23 @@
 .prose {
-  --k-prose-heading: lightblue;
+  --k-prose-headings: gray;
+  --k-prose-links: gray;
+  --k-prose-borders: gray;
+  --k-prose-captions: gray;
+  --k-prose-code: gray;
+  --k-prose-font-mono: gray;
+  --k-prose-lists: gray;
+  --k-prose-hr: gray;
+  --k-prose-bg-soft: gray;
+}
+
+html.dark .prose {
+  --k-prose-headings: white;
+  --k-prose-links: white;
+  --k-prose-borders: white;
+  --k-prose-captions: white;
+  --k-prose-code: white;
+  --k-prose-font-mono: white;
+  --k-prose-lists: white;
+  --k-prose-hr: white;
+  --k-prose-bg-soft: white;
 }
