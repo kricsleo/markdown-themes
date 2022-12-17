@@ -13,8 +13,7 @@
       position: absolute;
       right: 100%;
       padding-right: 5px;
-      // todo: if use secondary color
-      opacity: 0.4;
+      opacity: 0.5;
     }
     a {
       color: inherit;
@@ -87,6 +86,7 @@
     padding: 1.25rem 1.5rem;
     overflow-x: auto;
     border-radius: .375rem;
+    border: 1px solid var(--k-prose-borders);
     code {
       font-weight: inherit;
     }
