@@ -1,6 +1,7 @@
 @import './var';
 
 .prose {
+  color: var(--k-prose-text);
   h1,h2,h3,h4,h5,h6 {
     color: var(--k-prose-headings);
     font-weight: 600;
@@ -13,10 +14,11 @@
       right: 100%;
       padding-right: 5px;
       // todo: if use secondary color
-      opacity: 0.6;
+      opacity: 0.4;
     }
     a {
-      color: var(--k-prose-headings);
+      color: inherit;
+      box-shadow: none;
     }
   }
   h1 {
@@ -38,8 +40,8 @@
   a {
     color: var(--k-prose-links);
     font-weight: 500;
-    box-shadow: 0 2px;
     text-decoration: none;
+    box-shadow: 0 1.5px;
     code {
       color: var(--k-prose-links),
     }
@@ -69,22 +71,16 @@
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
     tab-size: 4;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
     hyphens: none;
     background: transparent;
   }
   code {
     color: var(--k-prose-code);
-    font-size: .875em;
     font-weight: 600;
     font-family: var(--k-prose-font-mono);
     :not(pre) > & {
-      padding: 0.1em;
-      border-radius: 0.1em;
+      padding: 0 0.2em;
     }
   }
   pre {

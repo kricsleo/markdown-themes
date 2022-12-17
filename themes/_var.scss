@@ -1,22 +1,24 @@
 .prose {
+  --k-prose-text: #555;
   --k-prose-headings: #222222;
-  --k-prose-links: #60a5fa;
+  --k-prose-links: #111827;
   --k-prose-borders: #dde1e3;
   --k-prose-captions: gray;
-  --k-prose-code: #9ca3af;
-  --k-prose-font-mono: monospace;
+  --k-prose-code: #222;
+  --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
   --k-prose-lists: gray;
   --k-prose-hr: #dde1e3;
   --k-prose-bg-soft: #dee2e6;
 }
 
 html.dark .prose {
+  --k-prose-text: #555;
   --k-prose-headings: #dde1e3;
   --k-prose-links: #60a5fa;
   --k-prose-borders: #d1d5db;
   --k-prose-captions: white;
   --k-prose-code: #9ca3af;
-  --k-prose-font-mono: monospace;
+  --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
   --k-prose-lists: white;
   --k-prose-hr: #d1d5db;
   --k-prose-bg-soft: #6b7280;

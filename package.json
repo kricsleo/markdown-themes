@@ -4,6 +4,7 @@
   "description": "Pure css themes for markdown.",
   "scripts": {
     "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
+    "start": "sass themes/prose-light.scss /Users/shengfeng.xu/Documents/workspace/kric.cc2/prose-light.css",
     "clean": "del dist"
   },
   "keywords": [],
