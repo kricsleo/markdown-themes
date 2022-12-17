@@ -32,7 +32,7 @@
     margin: 1.5em 0 .5em;
     font-size: 1.375em;
   }
-  h4 {
+  h4,h5 {
     margin: 1em 0;
     font-size: 1.125em;
   }
@@ -72,24 +72,30 @@
     word-wrap: normal;
     tab-size: 4;
     hyphens: none;
-    background: transparent;
   }
   code {
     color: var(--k-prose-code);
     font-weight: 600;
     font-family: var(--k-prose-font-mono);
-    :not(pre) > & {
+    :not(pre) > code {
       padding: 0 0.2em;
     }
   }
   pre {
-    padding: 1.25rem 1.5rem;
+    display: flex;
+    margin: 0.5em 0;
+    padding: 0.85em 1.14rem;
     overflow-x: auto;
-    border-radius: .375rem;
+    border-radius: .375em;
     background-color: var(--k-prose-bg-soft);
     code {
       font-weight: inherit;
     }
+  }
+  em,strong {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--k-prose-code);
   }
   ol,ul {
     padding-left: 1.25em;
