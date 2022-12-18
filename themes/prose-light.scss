@@ -3,7 +3,7 @@
 .prose {
   color: var(--k-prose-text);
   h1,h2,h3,h4,h5,h6 {
-    color: var(--k-prose-headings);
+    color: var(--k-prose-text-highlight);
     font-weight: 600;
     line-height: 1.25;
     cursor: pointer;
@@ -37,13 +37,9 @@
     font-size: 1.125em;
   }
   a {
-    color: var(--k-prose-links);
-    font-weight: 500;
+    color: var(--k-prose-text-highlight);
     text-decoration: none;
     box-shadow: 0 1.5px;
-    code {
-      color: var(--k-prose-links),
-    }
   }
   p,ul,ol,pre {
     margin: 1em 0;
@@ -52,8 +48,8 @@
   blockquote {
     margin: 1em 0;
     padding-left: 1em;
-    font-style: italic;
-    border-left: .25em solid var(--k-prose-borders);
+    opacity: 0.7;
+    border-left: .25em solid;
   }
   img,video {
     max-width: 100%;
@@ -62,7 +58,6 @@
     margin: 1em 0,
   }
   figcaption {
-    color: var(--k-prose-captions);
     font-size: .875em;
   }
   pre,code {
@@ -74,7 +69,7 @@
     hyphens: none;
   }
   code {
-    color: var(--k-prose-code);
+    color: var(--k-prose-text-highlight);
     font-weight: 600;
     font-family: var(--k-prose-font-mono);
     padding: 0 0.2em;
@@ -85,7 +80,7 @@
     padding: 0.85em 1.14rem;
     overflow-x: auto;
     border-radius: .375em;
-    background-color: var(--k-prose-bg-soft);
+    background-color: var(--k-prose-bg);
     code {
       padding: 0;
       font-weight: inherit;
@@ -94,7 +89,7 @@
   em,strong {
     font-style: normal;
     font-weight: 600;
-    color: var(--k-prose-code);
+    color: var(--k-prose-text-highlight);
   }
   ol,ul {
     padding-left: 1.25em;
@@ -130,11 +125,11 @@
     list-style-type: disc;
   }
   ol > li::marker,ul > li::marker,summary::marker {
-    color: var(--k-prose-lists),
+    color: var(--k-prose-text-soft),
   }
   hr {
     margin: 2em 0;
-    border: 1px solid var(--k-prose-hr);
+    border: 1px solid var(--k-prose-text-soft);
   }
   table {
     display: block;
@@ -143,17 +138,17 @@
     overflow-x: auto;
   }
   tr:nth-child(2n) {
-    background: var(--k-prose-bg-soft),
+    background: var(--k-prose-bg),
   }
   td,th {
-    border: 1px solid var(--k-prose-borders);
+    border: 1px solid var(--k-prose-text-soft);
     padding: .625em 1em;
   }
   abbr {
     cursor: help,
   }
   kbd {
-    color: var(--k-prose-code);
+    color: var(--k-prose-text-highlight);
     border: 1px solid;
     padding: .25rem .5rem;
     font-size: .875em;
@@ -162,7 +157,7 @@
   details {
     margin: 1em 0;
     padding: 1.25rem 1.5rem;
-    background: var(--k-prose-bg-soft),
+    background: var(--k-prose-bg),
   }
   summary {
     cursor: pointer;
