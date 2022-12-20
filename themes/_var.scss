@@ -1,15 +1,14 @@
-.prose {
+html {
   --k-prose-text: #222222;
   --k-prose-text-highlight: #0f0f0f;
-  --k-prose-text-soft: #9ca3af;
-  --k-prose-bg: #f8f8f8;
+  --k-prose-text-soft: #4a4a4a;
+  --k-prose-bg-soft: #f8f8f8;
   --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
-html.dark .prose {
-  --k-prose-text: #dde1e3;
+html.dark {
+  --k-prose-text: #d1d5db;
   --k-prose-text-highlight: #f8f9fa;
   --k-prose-text-soft: #a3a3a3;
-  --k-prose-bg: #2d2d2d;
-  --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  --k-prose-bg-soft: #2d2d2d;
 }
