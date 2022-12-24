@@ -59,6 +59,12 @@
     font-size: 0.95em;
     border-left: .25em solid var(--k-prose-text-soft);
     background-color: var(--k-prose-bg-soft);
+    &>:first-child {
+      margin-top: 0;
+    }
+    &>:last-child {
+      margin-bottom: 0;
+    }
   }
   img,video {
     max-width: 100%;
