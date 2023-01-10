@@ -1,4 +1,4 @@
-html {
+:root {
   --k-prose-text: #222222;
   --k-prose-text-highlight: #0f0f0f;
   --k-prose-text-soft: #4b5563;
@@ -6,7 +6,7 @@ html {
   --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
-html.dark {
+:root.dark {
   --k-prose-text: #aeb0b3;
   --k-prose-text-highlight: #ccd1d8;
   --k-prose-text-soft: #a3a3a3;
