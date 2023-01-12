@@ -5,16 +5,13 @@
   font-size: 16px;
   h1,h2,h3,h4,h5,h6 {
     color: var(--k-prose-text-highlight);
-    font-weight: 600;
-    line-height: 1.25;
-    cursor: pointer;
     position: relative;
     &:before {
       content: "#";
       position: absolute;
       right: 100%;
       padding-right: 5px;
-      opacity: 0.5;
+      opacity: 0.3;
     }
     a {
       color: inherit;
@@ -43,9 +40,9 @@
   a {
     color: var(--k-prose-text-highlight);
     text-decoration: none;
-    box-shadow: 0 1.5px var(--k-prose-text-soft);
+    box-shadow: 0 1.25px var(--k-prose-text-soft);
     &:hover {
-      box-shadow: 0 1.5px var(--k-prose-text-highlight);
+      box-shadow: 0 1.25px var(--k-prose-text-highlight);
     }
   }
   p,ul,ol,pre {
@@ -67,6 +64,8 @@
     }
   }
   img,video {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
   }
   figure,picture {
