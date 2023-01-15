@@ -10,6 +10,14 @@
   --k-prose-text: #d6d3d1;
   --k-prose-text-highlight: #f6f6f6;
   --k-prose-text-soft: #a3a3a3;
-  --k-prose-bg: #121212;
+  --k-prose-bg: #22272e;
+  --k-prose-bg-soft: #2d2d2d;
+}
+
+:root.newspaper {
+  --k-prose-text: #bcb7ae;
+  --k-prose-text-highlight: #d1c7b8;
+  --k-prose-text-soft: #a3a3a3;
+  --k-prose-bg: #22272e;
   --k-prose-bg-soft: #2d2d2d;
 }
