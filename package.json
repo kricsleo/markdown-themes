@@ -1,20 +1,26 @@
 {
-  "name": "markdown-themes",
+  "name": "@kricsleo/markdown-themes",
   "version": "1.0.0",
   "description": "Pure css themes for markdown.",
   "scripts": {
     "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
-    "dev": "sass --watch themes/prose.scss /Users/shengfeng.xu/Documents/workspace/kric.cc/prose.css --no-source-map --style=compressed",
+    "dev": "sass --watch themes/prose.scss --no-source-map",
     "clean": "del dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "markdown",
+    "theme",
+    "css"
+  ],
+  "author": "kricsleo",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "del-cli": "^5.0.0",
     "sass": "^1.56.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kricsleo/markdown-themes.git"
