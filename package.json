@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
     "dev": "sass --watch themes/prose.scss --no-source-map",
+    "release": "bumpp",
     "clean": "del dist"
   },
   "keywords": [
@@ -18,6 +19,7 @@
     "dist"
   ],
   "dependencies": {
+    "bumpp": "^9.0.0",
     "del-cli": "^5.0.0",
     "sass": "^1.56.2"
   },
