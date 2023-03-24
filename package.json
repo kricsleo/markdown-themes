@@ -6,7 +6,8 @@
     "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
     "dev": "sass --watch themes/prose.scss:dist/prose.css --no-source-map",
     "release": "bumpp && npm publish",
-    "clean": "del dist"
+    "clean": "del dist",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "markdown",
