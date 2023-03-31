@@ -1,29 +1,14 @@
 {
-  "name": "@kricsleo/markdown-themes",
-  "version": "1.1.0",
-  "description": "Pure css themes for markdown.",
-  "scripts": {
-    "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
-    "dev": "sass --watch themes/prose.scss:dist/prose.css --no-source-map",
-    "release": "bumpp && npm publish",
-    "clean": "del dist",
-    "prepublish": "npm run build"
-  },
+  "name": "markdown-themes",
+  "version": "1.0.0",
+  "description": "CSS themes for markdown.",
+  "author": "kricsleo",
+  "license": "MIT",
   "keywords": [
     "markdown",
     "theme",
     "css"
   ],
-  "author": "kricsleo",
-  "license": "MIT",
-  "files": [
-    "dist"
-  ],
-  "dependencies": {
-    "bumpp": "^9.0.0",
-    "del-cli": "^5.0.0",
-    "sass": "^1.56.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kricsleo/markdown-themes.git"
@@ -31,5 +16,24 @@
   "bugs": {
     "url": "https://github.com/kricsleo/markdown-themes/issues"
   },
-  "homepage": "https://github.com/kricsleo/markdown-themes#readme"
+  "homepage": "https://github.com/kricsleo/markdown-themes#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
+    "dev": "sass --watch themes/prose.scss:dist/prose.css --no-source-map",
+    "release": "bumpp && npm publish",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build"
+  },
+  "main": "dist/prose.css",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "rimraf": "^4.4.1",
+    "sass": "^1.56.2"
+  }
 }
