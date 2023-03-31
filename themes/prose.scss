@@ -1,4 +1,12 @@
+@use "sass:meta";
 @import './_var';
+
+:root {
+  @include meta.load-css("../highlightjs/github.css");
+}
+:root.dark {
+  @include meta.load-css("../highlightjs/github-dark.css");
+}
 
 .prose {
   color: var(--k-prose-text);
