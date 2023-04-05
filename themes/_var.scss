@@ -8,11 +8,11 @@
 }
 
 :root.dark {
-  --k-prose-text: #d6d3d1;
-  --k-prose-text-highlight: #e0e0e0;
-  --k-prose-text-soft: #a3a3a3;
+  --k-prose-text: rgba(255,255,255,0.72);
+  --k-prose-text-soft: rgba(255,255,255,0.52);
+  --k-prose-text-highlight: rgba(255,255,255,0.82);
   --k-prose-bg: #22272e;
-  --k-prose-bg-soft: #3a3a3a;
+  --k-prose-bg-soft: #2d343d;
 }
 
 :root.newspaper {
