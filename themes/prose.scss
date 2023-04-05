@@ -18,16 +18,16 @@
       position: absolute;
       right: 100%;
       padding-right: 5px;
-      opacity: 0;
+      opacity: .15;
       transition: opacity 100ms linear;
       box-shadow: none;
       &:hover {
         box-shadow: none;
-        opacity: 0.6 !important;
+        opacity: 0.8 !important;
       }
     }
     &:hover > .header-anchor {
-      opacity: 0.3;
+      opacity: .6;
     }
   }
   h1 {
