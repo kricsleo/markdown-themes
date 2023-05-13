@@ -15,6 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
+      "unplugin-markdown-2-html/markdown"
     ],
     "paths": {
       "~/*": ["src/*"]
