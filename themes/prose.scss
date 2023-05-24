@@ -99,12 +99,11 @@
     padding: 0.85em 1.14rem;
     overflow-x: auto;
     border-radius: .25em;
-    background-color: var(--k-prose-bg-soft);
     code {
       font-size: 0.85em;
       padding: 0;
       color: inherit;
-      background-color: transparent;
+      background-color: unset;
     }
   }
   em,strong {
