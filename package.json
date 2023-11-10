@@ -23,7 +23,7 @@
   "scripts": {
     "build": "npm run clean && sass themes:dist --no-source-map --style=compressed",
     "dev": "sass --watch themes/prose.scss:dist/prose.css --no-source-map",
-    "release": "bumpp && npm publish",
+    "release": "npm run build && bumpp && npm publish",
     "clean": "rimraf dist",
     "prepublish": "npm run build"
   },
