@@ -40,12 +40,8 @@
   }
   a {
     color: var(--k-prose-text-highlight);
-    text-decoration: none;
-    box-shadow: 0 1px var(--k-prose-text-soft);
-    transition: box-shadow 100ms linear;
-    &:hover {
-      box-shadow: 0 1.5px var(--k-prose-text-highlight);
-    }
+    text-decoration: underline var(--k-prose-text-highlight) 0.05rem;
+    text-underline-offset: 0.25rem;
   }
   p,ul,ol,pre {
     margin: 1em 0;

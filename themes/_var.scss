@@ -1,18 +1,18 @@
 :root {
   --k-prose-text: #222222;
-  --k-prose-text-soft: #999999;
-  --k-prose-text-highlight: #0d9488;
+  --k-prose-text-soft: #536471;
+  --k-prose-text-highlight: #0f766e;
   --k-prose-bg: #ffffff;
-  --k-prose-bg-soft: #fafafa;
+  --k-prose-bg-soft: #f7f9f9;
   --k-prose-font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
 :root.dark {
-  --k-prose-text: #d8dcdfe6;
-  --k-prose-text-soft: #999999;
+  --k-prose-text: #e7e9ea;
+  --k-prose-text-soft: #73787d;
   --k-prose-text-highlight: #14b8a6;
   --k-prose-bg: #050505;
-  --k-prose-bg-soft: #2d343d;
+  --k-prose-bg-soft: #16181c;
 }
 
 :root.newspaper {
